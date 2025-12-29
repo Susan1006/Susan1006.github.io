@@ -741,12 +741,12 @@
         </div>
     </footer>
    <!-- AI客服脚本 -->
-   <script>window.ChatWidgetConfig = {
-        authToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtZXNzYWdlX2F1dGgiLCJzdWJzY3JpcHRpb25faWQiOiIyMTUiLCJhbGxvd2VkX2RvbWFpbiI6InN1c2FuMTAwNi5naXRodWIuaW8ifQ.lpnPhvoFE-sXOUSjBdksPTPYWhSi6DWAdDEpUtrvvlk', 
-        apiEndpoint: 'https://api-development.venturacloud.ai/api/v1/receive-message/web-auth', 
-        apiResponseEndpoint: 'https://api-development.venturacloud.ai/api/v1/receive-message/web-response'};
-   </script>
-   <script src="https://dashboard-development.venturacloud.ai/widget/chat-widget.js"></script>
+    <script>window.ChatWidgetConfig = {authToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJtZXNzYWdlX2F1dGgiLCJzdWJzY3JpcHRpb25faWQiOiIyMTUiLCJhbGxvd2VkX2RvbWFpbiI6InN1c2FuMTAwNi5naXRodWIuaW8ifQ.lpnPhvoFE-sXOUSjBdksPTPYWhSi6DWAdDEpUtrvvlk', 
+    apiEndpoint: 'https://api-development.venturacloud.ai/api/v1/receive-message/stream-chat', 
+    apiEndjob: 'https://api-development.venturacloud.ai/api/v1/receive-message/stream/job', 
+    apiEndform: 'https://api-development.venturacloud.ai/api/v1/receive-message/form', 
+    apiUpdateReaction: 'https://api-development.venturacloud.ai/api/v1/receive-message/updated/reaction'};</script>
+    <script src="https://dashboard-development.venturacloud.ai/widget/chat-widget.js"></script>
     <script>
         // 移动端菜单切换
         const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
